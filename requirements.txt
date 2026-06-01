@@ -1,0 +1,13 @@
+# Core
+opencv-python>=4.8.0          # Video I/O, DNN backend, drawing
+numpy>=1.24                   # Array operations
+scipy>=1.10                   # Hungarian algorithm (linear_sum_assignment)
+filterpy>=1.4                 # Kalman filter (optional alternative to built-in)
+
+# Detector backends (install at least one)
+ultralytics>=8.0              # YOLOv8 — recommended, best accuracy
+# torch>=2.0                  # Required by ultralytics
+# torchvision>=0.15           # Required by ultralytics
+
+# Optional for Deep SORT
+# deep-sort-realtime>=1.3     # Drop-in Deep SORT replacement for tracker
